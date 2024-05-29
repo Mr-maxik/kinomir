@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(24, 23, 27);
+    color: white;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5em;
+}
+
+.fa-film {
+    color: rgb(238, 241, 105);
+    font-size: 24px;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-i {
+    font-size: 19px;
+    color: rgb(238, 241, 105);
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+main {
+    margin: auto;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#main {
+    color: rgb(192, 42, 29);
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 5em;
+    width: 60%;
+}
+
+.txt-desc {
+    width: 65%;
+    font-size: 68px;
+}
+
+.btn-desc {
+    max-height: fit-content;
+    padding: 10px;
+    background-color: rgb(192, 42, 29);
+    max-width: max-content;
+    font-size: 19px;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.btn-desc a {
+    color: white;
+}
+
+.cinema {
+    float: right;
+    background-image: url('https://maxik.neocities.org/assets/4e301e8e450927932ac083947a91c3557d-2-empty-movie-theatre.rsquare.w1200.png');
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    width: 100%;
+    height: 312px;
+}
+
+.txt-wel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5em;
+    width: 40%;
+}
+
+.img-wel {
+    float: right;
+    background-image: url('https://maxik.neocities.org/assets/uik.jpeg');
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.first-wel {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sec-wel {
+    font-size: 28px;
+}
+
+.three-wel {
+    font-size: 28px;
+}
+
+.new-f {
+    display: flex;
+    flex-direction: column;
+    margin: 7em 0px 0em 5em;
+    gap: 2em;
+}
+
+.new-f-h {
+    font-size: 36px;
+}
+
+.cards-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.card-f {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    color: rgb(24, 23, 27);
+    padding: 10px;
+}
+
+.desc-f-n {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.img-one {
+    background-image: url('https://maxik.neocities.org/assets/600x900.png');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.img-two {
+    background-image: url('https://maxik.neocities.org/assets/600x900-_1_.png');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.img-three {
+    background-image: url('https://maxik.neocities.org/assets/600x900-_2_.png');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5em 30px 0px 5em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.telegram {
+    background-color: white;
+    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    padding: 1px;
+    transition: all ease 1s;
+}
+
+.vk {
+    background-color: white;
+    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    padding: 1px;
+    transition: all ease 0.3s;
+}
+
+.h a {
+    color: rgb(138, 138, 138);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.h {
+    color: rgb(138, 138, 138);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.punkt {
+    color: rgb(192, 42, 29);
+    font-size: 19px;
+    transition: all ease 0.5s;
+}
+
+.con {
+    color: rgb(192, 42, 29);
+    font-size: 19px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.me {
+    color: rgb(138, 138, 138);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+.learn-more {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    background-color: rgb(192, 42, 29);
+    transition: all ease 0.5s;
+}
+
+.menu-i:hover {
+    transform: scale(1.2);
+}
+
+.btn-desc:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 0px #FFFFFF;
+}
+
+.learn-more:hover {
+    transform: scale(1.1);
+}
+
+.adress {
+    font-size: 16px;
+}
+
+.quote-name {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.punkt:hover {
+    transform: scale(1.1);
+}
+
+.telegram {
+    transition: all ease 0.5s;
+}
+
+.vk {
+    transition: all ease 0.5s;
+}
+
+.telegram:hover {
+    transform: rotate(360deg);
+}
+
+.vk:hover {
+    transform: rotate(360deg);
+}
+.btn-primary{--bs-btn-color:#fff;--bs-btn-bg:#0d6efd;--bs-btn-border-color:#0d6efd;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#0b5ed7;--bs-btn-hover-border-color:#0a58ca;--bs-btn-focus-shadow-rgb:49,132,253;--bs-btn-active-color:#fff;--bs-btn-active-bg:#0a58ca;--bs-btn-active-border-color:#0a53be;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, 0.125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#0d6efd;--bs-btn-disabled-border-color:#0d6efd}
+
+@media (max-width: 768px) {
+    header {
+        margin: 2em;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .menu-i {
+        font-size: 16px;
+    }
+
+    .head {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .desc {
+        margin: 2em;
+        text-align: center;
+    }
+
+    .btn-desc {
+        font-size: 16px;
+    }
+
+    .cinema {
+        width: 100%;
+        height: 300px;
+    }
+
+    .welcome {
+        flex-direction: column;
+        height: 612px;
+    }
+
+    .txt-wel {
+        margin: 2em 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .img-wel {
+        width: 100%;
+        height: 300px;
+    }
+
+    .new-f {
+        margin: 2em 0;
+    }
+
+    .cards-f {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-f {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 2em 30px 0px 2em;
+    }
+
+    .nav {
+        align-items: center;
+        text-align: center;
+    }
+
+    .social {
+        align-items: center;
+    }
+
+    .contacts {
+        align-items: center;
+    }
+
+    .me {
+        margin-top: 1em;
+    }
+}
